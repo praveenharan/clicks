@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Photography Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Photography Portfolio</h1>
+    <nav>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid">
+      <img src="photos/photo1.jpg" alt="Photo 1">
+      <img src="photos/photo2.jpg" alt="Photo 2">
+      <img src="photos/photo3.jpg" alt="Photo 3">
+      <!-- Add more images as you like -->
+    </div>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm a passionate photographer sharing my favorite shots. Welcome to my portfolio!</p>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 My Photography Portfolio</p>
+  </footer>
+</body>
+</html>
